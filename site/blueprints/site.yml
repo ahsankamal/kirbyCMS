@@ -11,6 +11,14 @@ sections:
     label: pages
     max: 3
   
+  google_analytics:
+    type: fields
+    fields:
+      google_analytics_tid:
+        label: Google Analytics tracking id
+        type: text
+
+
   
     
   footer:

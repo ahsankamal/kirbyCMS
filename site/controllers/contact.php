@@ -2,7 +2,7 @@
 
 use Uniform\Form;
 
-return function ($kirby, $page) {
+return function ($kirby) {
 
    $data = array(
       'name'  => get('name'),
@@ -11,7 +11,9 @@ return function ($kirby, $page) {
       'contact_email' => get('contact_email')
     );
 
+
    $body  = snippet('contactmail', $data, true);
+
 
    $form = new Form([
       'email' => [

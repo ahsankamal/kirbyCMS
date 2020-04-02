@@ -12,7 +12,17 @@ header {
 	margin-bottom: 1.5rem;
 	display: flex;
 	justify-content: space-between;
+    
 }
+
+.desktopScreenNavbar{
+    
+    background: red;
+    background-color: rgba(255, 255, 255, .9);
+    transition: background 1s ease;
+
+}
+
 
 a {
 	color: currentColor;
@@ -37,6 +47,22 @@ img{
 	margin-left: 2rem;
 }
 
+@media only screen and (max-width: 768px){
+#mwrap {
+    padding-top: 3.5%;
+}
+}
+
+@media only screen and (max-width: 960px){
+#mwrap {
+    display: block;
+}
+}
+#mwrap {
+    float: right;
+    padding-right: 3%;
+    z-index: 1000;
+}
 /*Removes the bullets.*/
 ul {
   list-style-type: none;
@@ -76,18 +102,30 @@ li a:hover {
 
 #featureTxt {
     font-size: 46px;
+}
+#featureTxt {
     font-family: arial;
+}  
+
+#featureTxt {
     color: #FFFFFF;
     width: 100%;
     margin: 0 auto;
     position: absolute;
-    top: 0;
     top: 45%;
     text-align: center;
-    line-height: 60px;
-    letter-spacing: 10px;
     z-index: 1000;
 }
+
+@media only screen and (max-width: 568px) {
+#featureTxt {
+    font-size: 32px!important;
+    line-height: 32px;
+    letter-spacing: 3px!important;
+}
+}
+
+
 #featureTxt:after {
     display: block;
     width: 60%;
@@ -126,6 +164,9 @@ li a:hover {
 
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+}
 
 .form-input-field {
     color: #333333;

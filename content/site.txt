@@ -2,6 +2,10 @@ Title: Site Title
 
 ----
 
+Google-analytics-tid: 1241141241
+
+----
+
 Footer-menu:
 
 - 
