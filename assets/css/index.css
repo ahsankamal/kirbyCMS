@@ -1,0 +1,146 @@
+/**:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*/
+/*body{
+	margin: 3rem;
+}*/
+
+header {
+	margin-bottom: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	color: currentColor;
+}
+
+img{
+	width: 100%;
+}
+
+.menu{
+	display: flex;
+	color: #000066;
+	font-size: 17px;
+	font-family: arial;
+	width: 100%;
+	padding-top: 10px;
+	/*padding-bottom: 30px;	*/
+}
+
+/*menu links*/
+.menu a{
+	margin-left: 2rem;
+}
+
+/*Removes the bullets.*/
+ul {
+  list-style-type: none;
+  position: fixed;
+  width: 90%;
+  text-align: right;
+  display: inline;
+}
+
+li{
+	display: inline;
+	/*float: left;*/
+	/*text-align: left;*/
+	/*text-align: right;*/
+}
+
+li a:hover {
+  background-color: #999999;
+}
+
+.active {
+  background-color: #111111;
+}
+
+
+.logo img{
+	width: 167px;
+	height: 100px;
+	position: fixed;
+	padding-left: 3%;
+}
+
+#featureImg {
+    width: 100%;
+    height: auto;
+}
+
+#featureTxt {
+    font-size: 46px;
+    font-family: arial;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    top: 45%;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 10px;
+    z-index: 1000;
+}
+#featureTxt:after {
+    display: block;
+    width: 60%;
+    content: "";
+    border-bottom-color: #FFFFFF;
+    height: 1px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid;
+    margin: 0px auto;
+}
+
+.paragraph {
+    font: 16px Arial, Verdana, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    text-align: justify;
+    color: #373737;
+
+}
+
+#footer {
+    background-color: #000066;
+    padding: 2% 5% 2% 5%;
+    color: #FFFFFF;
+    font-family: arial;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.form-input-field {
+    color: #333333;
+    background: #CCCCCC;
+    width: 70%;
+    width: 85%;
+    margin-top: 7px;
+    padding: 9px;
+    outline: none;
+    border: none;
+}
+
+.uniform__potty {
+    position: absolute;
+    left: -9999px;
+}
+
+

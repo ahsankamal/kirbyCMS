@@ -1,0 +1,49 @@
+title: Main
+
+sections:
+
+  content:
+    type: fields
+    fields:
+      meta_title:
+        label: Meta title
+        type: text
+      meta_description:
+        label: Meta description
+        type: text
+
+      feature_image:
+        label: Feature Image
+        type: files
+        max: 1
+        layout: cards
+      banner_text:
+        label: Banner Text
+        type: text
+
+      heading:
+        label: heading
+        type: text
+
+      paragraph_structure:
+        label: paragraphs
+        type: structure
+        fields:
+          paragraph_title:
+            label: Paragraph title
+            type: text
+          paragraph_body:
+            label: Paragraph body
+            type: textarea
+            
+
+      noindex:
+        label: No Index
+        type: toggle
+        text: Turn page to no-index?
+
+
+
+
+
+

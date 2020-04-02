@@ -1,0 +1,36 @@
+title: Contact Us
+
+sections:
+
+  content:
+    type: fields
+    fields:
+
+
+      meta_title:
+        label: Meta title
+        type: text
+      meta_description:
+        label: Meta description
+        type: text
+      feature_image:
+        label: Feature Image
+        type: files
+        max: 1
+        layout: cards
+      contact_info:
+        label: Contact details
+        type: textarea
+      contact_email:
+        label: Contact Email
+        type: email
+        required: true
+
+      notes:
+        label: Note
+        type: textarea
+
+      noindex:
+        label: No Index
+        type: toggle
+        text: Turn page to no-index?

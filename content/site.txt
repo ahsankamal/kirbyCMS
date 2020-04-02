@@ -1,0 +1,44 @@
+Title: Site Title
+
+----
+
+Footer-menu:
+
+- 
+  item_text: >
+    ©2013-2016 BeMo Academic Consulting
+    Inc. All rights reserved.
+  item_link: ""
+  item:
+    - 
+      item_text: >
+        ©2013-2016 BeMo Academic Consulting
+        Inc. All rights reserved.
+      item_link: ""
+    - 
+      item_text: 'Disclaimer & Privacy Policy'
+      item_link: >
+        http://www.cdainterview.com/disclaimer-privacy-policy.html
+    - 
+      item_text: ' Contact Us'
+      item_link: https://cdainterview.com/contact-us.php
+- 
+  item_text: 'Disclaimer & Privacy Policy'
+  item_link: >
+    http://www.cdainterview.com/disclaimer-privacy-policy.html
+
+----
+
+Contact-email: info@bemoacademicconsulting.com
+
+----
+
+Facebook-icon: https://www.facebook.com/bemoacademicconsulting
+
+----
+
+Twitter-icon: https://twitter.com/BeMo_AC
+
+----
+
+Footer-icons: 

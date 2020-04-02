@@ -1,0 +1,35 @@
+Title: Contact
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Feature-image:
+
+- feature_image.png
+
+----
+
+Contact-info:
+
+**BeMo Academic Consulting Inc.**
+
+`Toll Free`: 1-855-900-BeMo (2366)
+
+----
+
+Contact-email: ahsankamal60@gmail.com
+
+----
+
+Notes: **Note**: If you are having difficulties with our contact us form above, send us an email to info@bemoacademicconsulting.com (copy & paste the email address)
+
+----
+
+Noindex: true

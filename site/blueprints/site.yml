@@ -1,0 +1,57 @@
+title: Site
+
+sections:
+  logo:
+    type: files
+    label: logo
+    max: 1
+    layout: cards
+  menu:
+    type: pages
+    label: pages
+    max: 3
+  
+  
+    
+  footer:
+    type: fields
+    fields:
+      footer_menu:
+        label: Footer Menu
+        type: structure
+        fields:
+          item_text:
+            label: Text
+            type: text
+          item_link:
+            label: URL
+            type: url
+
+      
+      contact_email:
+        label: Contact Us
+        type: email
+        text: Contact Us (email)
+      facebook_icon:
+        label: facebook
+        type: url
+        icon: facebook
+      twitter_icon:
+        label: twitter
+        type: url
+        icon: twitter
+      # footer_icons:
+      #   label: Footer Icons
+      #   type: structure
+      #   fields:
+      #     icon_img:
+      #       label: Icon
+      #       icon: facebook
+      #     icon_link:
+      #       label: URL
+      #       type: url
+            
+
+
+
+ 
