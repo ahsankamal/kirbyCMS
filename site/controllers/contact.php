@@ -1,9 +1,14 @@
 <?php
 
 use Uniform\Form;
+require 'vendor/autoload.php';
+
+
+// $logger->info('Returned a million search results');
 
 return function ($kirby) {
 
+$logger = new Katzgrau\KLogger\Logger(__DIR__.'/logs');
    $data = array(
       'name'  => get('name'),
       'email' => get('email'),
@@ -11,9 +16,7 @@ return function ($kirby) {
       'contact_email' => get('contact_email')
     );
 
-
    $body  = snippet('contactmail', $data, true);
-
 
    $form = new Form([
       'email' => [
@@ -24,7 +27,14 @@ return function ($kirby) {
       'name' => '',
    ]);
 
+
+   // var_dump($kirbyy);
+
+
    if ($kirby->request()->is('POST')) {
+
+    // $logger->info(dump($form));
+    
       $form->emailAction([
          'to' => $data['contact_email'],
          'from' => 'info@ahsan.com',
@@ -33,7 +43,11 @@ return function ($kirby) {
          'body'    => $body
       ]);
 
-      
+      if ($form->success()) {
+        // redirect to success page
+        // dump("$form");
+        $logger->info(dump($form->success()));
+    }
    }
 
    return compact('form');

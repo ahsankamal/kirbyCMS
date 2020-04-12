@@ -1,0 +1,87 @@
+[2020-04-06 4:58:53.552078] [info] <pre>Uniform\Form Object
+(
+    [shouldValidate:protected] => 
+    [shouldCallGuard:protected] => 
+    [shouldRedirect:protected] => 1
+    [shouldFlash:protected] => 1
+    [shouldFallThrough:protected] => 
+    [success:protected] => 1
+    [flash:protected] => Jevets\Kirby\Flash Object
+        (
+            [sessionKey:protected] => _flash
+            [data:protected] => Array
+                (
+                )
+
+        )
+
+    [data:protected] => Array
+        (
+            [email] => ahsankamal60@gmail.com
+            [message] => asd
+            [name] => Ahsan
+        )
+
+    [errors:protected] => Array
+        (
+        )
+
+    [fields:protected] => Array
+        (
+            [email] => Array
+                (
+                    [name] => email
+                    [id] => email
+                    [flash] => 1
+                )
+
+            [message] => Array
+                (
+                    [name] => message
+                    [id] => message
+                    [flash] => 1
+                )
+
+            [name] => Array
+                (
+                    [name] => name
+                    [id] => name
+                    [flash] => 1
+                )
+
+        )
+
+    [rules:protected] => Array
+        (
+            [email] => Array
+                (
+                    [0] => required
+                    [1] => email
+                )
+
+            [message] => Array
+                (
+                )
+
+            [name] => Array
+                (
+                )
+
+        )
+
+    [messages:protected] => Array
+        (
+            [email] => Email is required
+            [message] => Array
+                (
+                )
+
+            [name] => Array
+                (
+                )
+
+        )
+
+)
+</pre>
+[2020-04-06 5:01:53.095976] [info] <pre>1</pre>

@@ -8,6 +8,13 @@
 	margin: 3rem;
 }*/
 
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
 header {
 	margin-bottom: 1.5rem;
 	display: flex;
@@ -58,6 +65,14 @@ img{
     display: block;
 }
 }
+
+@media screen and (max-width: 600px) {
+  .menu a  {
+    float: right;
+    width: 100%;
+  }
+}
+
 #mwrap {
     float: right;
     padding-right: 3%;
@@ -88,11 +103,10 @@ li a:hover {
 }
 
 
-.logo img{
+.bemo_logo img{
 	width: 167px;
 	height: 100px;
 	position: fixed;
-	padding-left: 3%;
 }
 
 #featureImg {
@@ -114,25 +128,42 @@ li a:hover {
     position: absolute;
     top: 45%;
     text-align: center;
+    line-height: 60px;
+    letter-spacing: 10px;
     z-index: 1000;
 }
 
+
+
+
 @media only screen and (max-width: 568px) {
 #featureTxt {
-    font-size: 32px!important;
     line-height: 32px;
+    top: 30%;
     letter-spacing: 3px!important;
 }
 }
+@media only screen and (max-width: 320px){
+#featureTxt {
+    top: 20%;
+    font-size: 18px!important;
+    line-height: 18px;
+}
+}
 
+@media only screen and (max-width: 768px){
+#featureTxt {
+    letter-spacing: 6px;
+}
+}
 
 #featureTxt:after {
-    display: block;
-    width: 60%;
     content: "";
-    border-bottom-color: #FFFFFF;
+    display: block;
     height: 1px;
     padding-bottom: 12px;
+    border-bottom-color: #FFFFFF;
+    width: 60%;
     border-bottom: 2px solid;
     margin: 0px auto;
 }
@@ -141,6 +172,8 @@ li a:hover {
     font: 16px Arial, Verdana, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+
+    margin-left: 30px;
     border: 0;
     outline: 0;
     font-size: 100%;

@@ -47,6 +47,7 @@ class ComposerStaticInit3f724e061aca6bbb71aedc58459b9da0
         'K' => 
         array (
             'Kirby\\' => 6,
+            'Katzgrau\\KLogger\\' => 17,
         ),
         'J' => 
         array (
@@ -92,6 +93,10 @@ class ComposerStaticInit3f724e061aca6bbb71aedc58459b9da0
             0 => __DIR__ . '/../..' . '/kirby/src',
             1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
+        'Katzgrau\\KLogger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/katzgrau/klogger/src',
+        ),
         'Jevets\\Kirby\\' => 
         array (
             0 => __DIR__ . '/..' . '/mzur/kirby-flash/src',
@@ -126,6 +131,7 @@ class ComposerStaticInit3f724e061aca6bbb71aedc58459b9da0
         'Jevets\\Kirby\\Form' => __DIR__ . '/..' . '/mzur/kirby-form/src/Form.php',
         'Jevets\\Kirby\\FormInterface' => __DIR__ . '/..' . '/mzur/kirby-form/src/FormInterface.php',
         'Jevets\\Kirby\\Validator' => __DIR__ . '/..' . '/mzur/kirby-form/src/Validator.php',
+        'Katzgrau\\KLogger\\Logger' => __DIR__ . '/..' . '/katzgrau/klogger/src/Logger.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',
         'Kirby\\Api\\Model' => __DIR__ . '/../..' . '/kirby/src/Api/Model.php',

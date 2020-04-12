@@ -18,14 +18,17 @@
 	<div id="featureTxt"><?= $page->banner_text() ?></div>
 </div>
 
+
+
+<div style="padding: 3.5%;">
 <span style="font:17px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000066;font-weight:bold;">  
 <?= $page->heading() ?>
-</span>
-
+</span><br><br>
 
 <?php 
 // using the `toStructure()` method, we create a structure collection
 $items = $page->paragraph_structure()->toStructure();
+
 
 // we can then loop through the entries and render the individual fields
 foreach ($items as $item): ?>
@@ -37,7 +40,7 @@ foreach ($items as $item): ?>
 
 
 <?php endforeach ?>
-
+</div>
 
 
 

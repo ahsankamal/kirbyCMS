@@ -22,14 +22,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?= $site->title() ?></title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 	<?= css('assets/css/index.css') ?>
+	
+
 </head>
 <body>
 
 
 
 <header class="navbar navbar-default navbar-inverse navbar-fixed-top mobileb desktopScreenNavbar" role="navigation">
-	<a class="logo" href="<?= $site->url() ?>">
+	<a class="bemo_logo" href="<?= $site->url() ?>">
 		<?php if($image = $site->image('bemo-logo.png')): ?>
 			<img src="<?= $image->url() ?>" alt="Site logo">
 		<?php endif ?> 

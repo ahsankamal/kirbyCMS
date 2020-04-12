@@ -11,6 +11,7 @@ return array(
     'Jevets\\Kirby\\Form' => $vendorDir . '/mzur/kirby-form/src/Form.php',
     'Jevets\\Kirby\\FormInterface' => $vendorDir . '/mzur/kirby-form/src/FormInterface.php',
     'Jevets\\Kirby\\Validator' => $vendorDir . '/mzur/kirby-form/src/Validator.php',
+    'Katzgrau\\KLogger\\Logger' => $vendorDir . '/katzgrau/klogger/src/Logger.php',
     'Kirby\\Api\\Api' => $baseDir . '/kirby/src/Api/Api.php',
     'Kirby\\Api\\Collection' => $baseDir . '/kirby/src/Api/Collection.php',
     'Kirby\\Api\\Model' => $baseDir . '/kirby/src/Api/Model.php',
